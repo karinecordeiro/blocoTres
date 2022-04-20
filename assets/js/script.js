@@ -6,8 +6,9 @@
     let assuntoOk = false
     let mapa = document.querySelector("#mapa")
 
-    nome.style.width = '25%'
-    email.style.width = '25%'
+    nome.style.width = '100%'
+    email.style.width = '100%'
+    assunto.style.width ="100%"
 
     function validaNome() {
         let txtNome = document.querySelector("#txtNome")
@@ -54,12 +55,12 @@
  }
 
  function mapaMaior(){ // como descer a tela quando o mapa aumenta?
-     mapa.style.width ="600px"
-     mapa.style.height= "400px"
+     mapa.style.width ="650px"
+     mapa.style.height= "425px"
  }
 
  function mapaNormal(){
-    mapa.style.width ="400px"
-     mapa.style.height= "250px"
+    mapa.style.width ="600px"
+     mapa.style.height= "400px"
  }
 

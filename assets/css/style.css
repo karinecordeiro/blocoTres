@@ -1,11 +1,15 @@
 /*estilos da página index.html*/
 body{
-    background-color: rgb(247, 238, 234);
+    background-color: rgb(255, 255, 255);
 }
 
 *{
     margin: 0;
     padding: 0;
+}
+.logo{
+   display: flex;
+   justify-content: center;
 }
 .center{
     text-align: justify;
@@ -15,6 +19,7 @@ body{
     display: flex;
     list-style: none;
     background-color: #dd0707;
+
 }
 #menu ul li a{
     text-decoration: none;
@@ -25,31 +30,34 @@ body{
     line-height: 50px;
     font-size: 20px;
 }
-  #menu ul li a:hover{
-    color: rgb(41, 2, 2);
+#menu ul li a:hover{
+    color: #660606;
 }
 .container{
     padding: 1rem;
     display: flex;
-    flex-flow: row;
     justify-content: center;
+    align-items: center;
+    gap:2rem;
 }
 h1{
-    margin-top: 10px;
-    text-align: center;
+    background-color: #dd0707;
+    padding:0.5rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #dd0707;
+    color: #ffffff;
 }
 h2{
     background-color: #dd0707;
     padding:0.5rem;
-    
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #ffffff;
 }
 .categorias ul{
     display:flex;
     list-style: none;
+}
+.inicio{
+    justify-content:flex-start;
 }
 
 .categorias ul li{
@@ -62,7 +70,7 @@ h2{
 
 p{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(105, 4, 4);
+    color: #dd0707;
     margin: 1rem;
     text-align: center;
     font-size: 1rem;
@@ -73,33 +81,69 @@ p{
     text-align: center;
 }
 
-#rodape p{
-    margin: 1rem;
-    text-align: center;
-    color: aliceblue;
-    padding: 10px;
-    background-color: #bb1919;
+.equipe{
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    transform: rotate(180deg);
+
+}
+.piloto{
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+
 }
 
 /*estilos da página contato.html*/
+
 h3 {
     font-size: max(5vw, 3.5rem);
     color:#dd0707;
-    font-weight: 200;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .tituloC{
-
     writing-mode: vertical-lr;
     text-orientation: mixed;
     transform: rotate(180deg);
 
 }
 .tituloE{
-
     writing-mode: vertical-lr;
     text-orientation: mixed;
-   
 
 }
+label{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #dd0707
+}
+input{
+    width: 100%;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    background-color: #dd0707;
+    border: 0;
+    color: white;
+    font-weight: 700;
+    font-size: 1.275rem;
+    transition: background-color .3s;
+    margin: 0 auto;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #660606;
+  }
