@@ -15,28 +15,31 @@ h1{
     margin-top: 10px;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #bb1919;
+    color: #dd0707;
 }
 #menu ul{
     display: flex;
     list-style: none;
-    background-color: #bb1919;
-  }
+    background-color: #dd0707;
+}
 #menu ul li a{
+    text-decoration: none;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(255, 255, 255);
     margin: 20px;
     text-align: center;
     line-height: 50px;
     font-size: 20px;
-  }
-
+}
+  #menu ul li a:hover{
+    color: rgb(41, 2, 2);
+}
 .container{
     flex-flow: row;
     justify-content: center;
 }
 h2{
-    background-color: #bb1919;
+    background-color: #dd0707;
     padding:0.5rem;
     
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
